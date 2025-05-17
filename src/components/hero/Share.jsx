@@ -1,4 +1,4 @@
-import { FaLinkedin, FaSquareGithub, FaSquareInstagram } from "react-icons/fa6";
+import { FaLinkedin,  FaSquareInstagram } from "react-icons/fa6";
 
 function Share() {
   return (
@@ -12,14 +12,7 @@ function Share() {
         >
           <FaLinkedin className="h-auto w-7 rotate-90" />
         </a>
-        <a
-          href="https://github.com/sharjeel-siddiqui12" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition-colors duration-300 hover:text-red"
-        >
-          <FaSquareGithub className="h-auto w-7 rotate-90" />
-        </a>
+       
         <a
           href="https://www.instagram.com/sharjeel_.siddiqui._/" 
           target="_blank"
