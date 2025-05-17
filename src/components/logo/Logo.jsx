@@ -11,6 +11,7 @@ function Logo({ size = "w-full", type = "white" }) {
         className={Styles.FooterLogo}
       />
     </Link>
+    
   );
 }
 
